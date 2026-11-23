@@ -35,6 +35,26 @@ Health check:
 GET http://localhost:3000/health
 ```
 
+## Item API
+
+The item CRUD endpoints are available under `/api/items`:
+
+```text
+POST   /api/items
+GET    /api/items
+GET    /api/items/:id
+PUT    /api/items/:id
+DELETE /api/items/:id
+```
+
+Create an item:
+
+```json
+{
+  "name": "Example item"
+}
+```
+
 ## Git workflow
 
 Git branches and commits are maintained manually. Use the `main` branch as the
